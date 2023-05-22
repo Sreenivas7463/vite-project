@@ -1,4 +1,4 @@
-import React from "react";
+
 import { ButtonInterface } from "../src/types"
 import styles from './Button.module.css'
 

@@ -1,4 +1,4 @@
-import React from "react";
+
 import { BadgeInterface } from "../src/types"
 import styles from './Badge.module.css'
 
