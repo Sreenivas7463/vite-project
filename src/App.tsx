@@ -1,3 +1,4 @@
+import React from "react";
 import { InboxIcon, DevicePhoneMobileIcon } from '@heroicons/react/24/solid'
 import './App.css'
 import Card from '../components/Card'
