@@ -1,0 +1,16 @@
+import React from "react";
+import { ButtonInterface } from "../src/types"
+import styles from './Button.module.css'
+
+const Button = ({text, filled, type, href, icon}: ButtonInterface) => {
+  const filledClass = filled ? styles.filled : "";
+  return (
+   
+    <a href={href} className={`${styles.btn} ${styles[type.toLowerCase()]} ${filledClass} ${styles.btnb}` }>
+      <span>{text}</span>
+      {icon}
+    </a>
+
+  )
+}
+export default Button
