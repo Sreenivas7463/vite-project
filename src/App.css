@@ -9,4 +9,5 @@
   align-items: flex-start;
   gap: var(--space-lg);
   margin-bottom: 10vmin;
+  margin-top: 5vmin;
 }

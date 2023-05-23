@@ -1,5 +1,6 @@
 import Lottie from "lottie-react"
 import animationData from "./assets/system.json"
+import welcomeData from "./assets/welcome.json"
 import { InboxIcon, DevicePhoneMobileIcon } from '@heroicons/react/24/solid'
 import './App.css'
 import Card from '../components/Card'
@@ -8,6 +9,7 @@ function App() {
  
   return (
     <div className="App">
+      <Lottie animationData={welcomeData} />
      <section className="card-container">
      
         <Card
