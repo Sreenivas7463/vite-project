@@ -1,4 +1,5 @@
-
+import Lottie from "lottie-react"
+import animationData from "./assets/system.json"
 import { InboxIcon, DevicePhoneMobileIcon } from '@heroicons/react/24/solid'
 import './App.css'
 import Card from '../components/Card'
@@ -7,8 +8,8 @@ function App() {
  
   return (
     <div className="App">
-      <section className="card-container">
-       
+     <section className="card-container">
+     
         <Card
           body='I am Having 5+ Yrs of Experience in WebDevelopment and WebDesigning. PHP, MySQL, WordPress, Codeigniter and Bootstrap Framework'
           title='T. Sreenivasulu'
@@ -35,8 +36,9 @@ function App() {
             filled: true
             
           }} />
-      
+       
       </section>
+     <Lottie animationData={animationData} />
     </div>
   )
 }

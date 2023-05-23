@@ -8,4 +8,5 @@
   flex-wrap: wrap;
   align-items: flex-start;
   gap: var(--space-lg);
+  margin-bottom: 10vmin;
 }
