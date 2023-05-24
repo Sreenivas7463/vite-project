@@ -28,7 +28,7 @@ function App() {
             href: 'mailto:sreenivasadyourworld@gmail.com',
             type: 'secondary',
             filled: true,
-            icon: <InboxIcon />
+            icon: <InboxIcon />,
             
           }}
           btn={{

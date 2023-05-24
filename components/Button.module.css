@@ -8,7 +8,7 @@
     line-height: var(--lh-1);
     text-decoration: none;
     cursor: pointer;
-    padding: .5em 1em;
+    padding: .5em .5em;
     border-width: .1em;
     border-style: solid;
     border-color: var(--type);
