@@ -23,20 +23,23 @@ const Card = ({body,btn0,btn,title,badge,image,indicator, subtitle}: CardInterfa
         }
       </div>
       <p className={styles.body}>{body}</p>
-      <Button 
-        filled={btn0.filled}
-        type={btn0.type}
-        text={btn0.text}
-        href={btn0.href}
-        icon={btn0.icon}
-      />
-      <Button
-        filled={btn.filled}
-        type={btn.type}
-        text={btn.text}
-        href={btn.href}
-        icon={btn.icon}
-      />
+      <div className={styles.rowC}>
+        <Button 
+          filled={btn0.filled}
+          type={btn0.type}
+          text={btn0.text}
+          href={btn0.href}
+          icon={btn0.icon}
+        />
+        <span>&nbsp;&nbsp;</span>
+        <Button
+          filled={btn.filled}
+          type={btn.type}
+          text={btn.text}
+          href={btn.href}
+          icon={btn.icon}
+        />
+      </div>
     </article>
   )
 }
