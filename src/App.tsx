@@ -23,24 +23,27 @@ function App() {
           indicator=""
           subtitle='WebDeveloper'
           btn0={{
-            icon: <InboxIcon />,
+           
             text: "E-Mail",
             href: 'mailto:sreenivasadyourworld@gmail.com',
             type: 'secondary',
-            filled: true
+            filled: true,
+            icon: <InboxIcon />
             
           }}
           btn={{
-            icon: <DevicePhoneMobileIcon />,
+            
             text: "Contact",
             href: 'tel:9032446465',
             type: 'secondary',
-            filled: true
+            filled: true,
+            icon: <DevicePhoneMobileIcon  />
             
           }} />
        
       </section>
      <Lottie animationData={animationData} />
+    
     </div>
   )
 }
