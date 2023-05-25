@@ -13,7 +13,7 @@ function App() {
      <section className="card-container">
      
         <Card
-          body='I am Having 5+ Yrs of Experience in WebDevelopment and WebDesigning. PHP, MySQL, WordPress, Codeigniter and Bootstrap Framework'
+          body= 'I am Having 5+ Yrs of Experience in WebDevelopment and WebDesigning. PHP, MySQL, WordPress, Codeigniter and Bootstrap Framework'
           title='T. Sreenivasulu'
           image='https://source.unsplash.com/random/?WebDevelopment'
           badge={{
@@ -38,11 +38,21 @@ function App() {
             type: 'secondary',
             filled: true,
             icon: <DevicePhoneMobileIcon  />
+           
             
-          }} />
+          }} 
+
+          ani= {{ 
+            animation0: <Lottie animationData={animationData} /> 
+          }} 
+          
+          />
+
+        
+          
        
       </section>
-     <Lottie animationData={animationData} />
+    
     
     </div>
   )

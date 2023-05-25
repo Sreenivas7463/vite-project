@@ -9,6 +9,7 @@ export interface BadgeInterface {
     href: string;
     filled?: boolean;
     icon?: JSX.Element;
+    
   }
   
   export interface CardInterface {
@@ -19,5 +20,6 @@ export interface BadgeInterface {
     subtitle?: string,
     body: string,
     btn: ButtonInterface,
-    btn0: ButtonInterface
+    btn0: ButtonInterface,
+    ani: any
   }

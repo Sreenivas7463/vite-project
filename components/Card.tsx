@@ -4,7 +4,7 @@ import Badge from "./Badge"
 import Button from "./Button"
 import styles from './Card.module.css'
 
-const Card = ({body,btn0,btn,title,badge,image,indicator, subtitle}: CardInterface) => {
+const Card = ({body,btn0,btn,title,badge,image,indicator, subtitle, ani}: CardInterface) => {
   return (
     <article className={`stack-lg ${styles.card}`}>
       {indicator &&
@@ -23,6 +23,7 @@ const Card = ({body,btn0,btn,title,badge,image,indicator, subtitle}: CardInterfa
         }
       </div>
       <p className={styles.body}>{body}</p>
+     <div>{ani.animation0}</div>
       <div className={styles.rowC}>
         <Button 
           filled={btn0.filled}
